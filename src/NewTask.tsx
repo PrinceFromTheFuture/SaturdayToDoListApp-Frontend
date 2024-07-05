@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Dialog, DialogTrigger, DialogContent, DialogClose } from "./components/ui/dialog";
 import { useAppDispatch } from "./hooks";
 import { newTask } from "./redux/tasksSlice";

@@ -1,8 +1,4 @@
-import React from "react";
-import { Task as TaskType } from "@/types";
-import { Checkbox } from "./components/ui/checkbox";
 import Task from "./Task";
-import { useSelector } from "react-redux";
 import { allTasksSelector, tasksStateSelector } from "./redux/tasksSlice";
 import SpinAnimation from "./SpinAnimation";
 import { useAppSelector } from "./hooks";
