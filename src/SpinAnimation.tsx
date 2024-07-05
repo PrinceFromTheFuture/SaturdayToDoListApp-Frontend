@@ -1,5 +1,3 @@
-import React from "react";
-
 const SpinAnimation = () => {
   return (
     <div className="p-16">
